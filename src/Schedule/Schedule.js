@@ -87,7 +87,7 @@ class Schedule extends React.Component{
 
   fetchWeekDays(wid) {
     this.success = false;
-    fetch(this.baseURL+'schedule/days/'+wid, {
+    fetch(this.baseURL+'/schedule/days/'+wid, {
         method: 'GET',
         headers: {
             "Authorization": "Bearer " + this.token
