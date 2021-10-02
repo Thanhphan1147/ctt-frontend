@@ -125,6 +125,7 @@ class Schedule extends React.Component{
         detail_day_id: first.day_id
       });
       // console.log(responseData);
+      this.fetchPlanning(first.day_id);
     })
   }
 
